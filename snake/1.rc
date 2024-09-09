@@ -1,0 +1,12 @@
+#include <resource\Menu.rc>
+#include <resource\Dialog.rc>
+#define IDM_BEGIN 1 
+#define IDM_EXIT 2
+#define IDI_ICON 201
+#define BM_BMP			1000
+#define BM_WALL			1002
+BM_BMP					BITMAP      resource\p1.bmp
+BM_WALL                 BITMAP      resource\p2.bmp
+IDI_ICON				ICON		resource\snake.ico
+
+
